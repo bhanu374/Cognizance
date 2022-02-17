@@ -1,0 +1,20 @@
+Function Main
+    Declare Integer a, b, c
+    
+    Input a
+    Assign c = 0
+    If a<0
+        Assign a = -a
+    End
+    For b = 0 to a step 3
+        If b==a
+            Assign b = a+1
+            Assign c = 1
+        End
+    End
+    If c==1
+        Output "TRUE"
+    False:
+        Output "FALSE"
+    End
+End
