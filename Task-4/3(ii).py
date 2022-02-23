@@ -1,3 +1,4 @@
+#3(ii) question:
 sd = []
 def student_details(roll_no, name, marks):
     sd.append([roll_no, name, marks])
